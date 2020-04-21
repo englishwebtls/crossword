@@ -1,0 +1,189 @@
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+body{
+	margin: 0px;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 9pt;
+}
+img{
+	border: 0px;
+}
+hr.cleaner {
+      clear:both;
+      margin: 5px;
+      height:10px;
+      padding: 5px;
+      border:none;
+      visibility: hidden;
+}
+
+#container{
+	width: 100%;
+}
+
+#header{
+	height: 30px;
+	background-color: #DDD;
+	padding: 5px;
+}
+#puzzle_footer{
+	font-size: 8pt;
+	background-color: #DDD;
+    height:30px;
+    margin-top:40px;
+}
+
+#puzzle_header{
+        background-color: #DDD;
+        padding: 5px;
+        padding-right: 15px;
+}
+
+
+#PuzTitle {
+	font-size: 15pt;
+	font-weight: bold;
+	color: #800000;
+	margin-bottom: 0px;
+}
+
+#SubTitle {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 0px;
+}
+
+#ByAuthor{
+	margin-top: 0px;
+}
+
+#message{
+	width: 400px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #EEE;
+	color: #000;
+}
+
+#puzzle_index{
+	margin: 20px;
+	font-size: 11pt;
+	line-height: 20px;
+}
+
+.CopyTag {
+	font-size: 10pt; color: #000
+}
+
+.Clues, .GridClues {
+	font-size: -3pt; font-family: Times New Roman,Times;
+}
+
+td{
+	padding: 5px;
+}
+.row_style_odd, .row_style_1{
+	background-color: #ADF;
+	color: #000;
+}
+.row_style_even, .row_style_2{
+	background-color: #DEF;
+	color: #000;
+}
+
+.alert{
+	font-size: 12pt;
+	font-weight:bold;
+	padding: 5px;
+	width: 700px;
+	border: 2px solid #F90;
+	background-color: #FEE2B8;
+	color: #000;
+}
+.alert form{
+	padding: 5px;
+}
+.error{
+	font-size: 12pt;
+	font-weight:bold;
+	padding: 5px;
+	width: 700px;
+	border-style: solid;
+	border: 2px;
+	border-color: #C00;
+	background-color: #FFDFDF;
+	color: #000;
+}
+
+.small_text{
+	font-size: 8pt;
+}
+.description{
+	width: 600px;
+	text-align: left;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.disclaimer{
+	width: 700px;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px;
+}
+.mark_ERROR{
+	width:25px;
+	height:25px;
+	background: URL(../images/cross.gif) no-repeat;
+}
+.mark_OK{
+	width:25px;
+	height:25px;
+	background: URL(../images/tick.gif) no-repeat;
+}
+input.invalid {
+	background-color: #FF9;
+	border: 2px red inset;
+}
+.errors {
+	color: #F00;
+}
+#helpPanel{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background-color: gray;
+	color: white;
+}
+
+#helpPanelSpacer{
+	width: 100%;
+	height: 70px;
+	clear: both;
+}
+
+#hidePanel{
+	float: right;
+	width: 20px;
+	height: 10px;
+	padding: 5px;
+	font-size: 8pt;
+	background-color: #CCC;
+	color: #000;
+	text-align: center;
+}
+
+#helpText{
+	padding: 10px;
+	font-size: 9pt;
+	color: white;
+	display: none;
+}
